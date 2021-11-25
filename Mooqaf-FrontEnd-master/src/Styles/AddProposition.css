@@ -1,0 +1,95 @@
+.single-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 20px;
+    width: 100%;
+    flex-grow: 1;
+    font-family: 'Advent Pro', sans-serif;
+    background: white;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.single-container>.title {
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.single-container>.title svg{
+    color: #39A0ED;
+}
+.list {
+    height: calc(100vh - 210px);
+    overflow-y: auto;
+}
+.list .list-item2 {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    cursor: pointer;
+}
+.list .list-item2 .title {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    font-weight: bold;
+    gap: 5px;
+}
+.list .list-item2 .title .lable {
+
+}
+.list .list-item2 .title .notif {
+    margin-left: auto;
+    text-align: center;
+    line-height: 23px;
+    color: white;
+    width: 23px;
+    height: 23px;
+    background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+    border-radius: 100%;
+}
+.list .list-item2 .speciality {
+    font-weight: bold;
+}
+.list .list-item2 .desc {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+.list .list-item2 .bottom {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.list .list-item2 .bottom .name {
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.list .list-item2 .bottom .city {
+    font-weight: bold;
+    display: block;
+}
+.list .list-item2 .expire {
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+    padding: 0 5px;
+}

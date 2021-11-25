@@ -1,0 +1,24 @@
+.text-area-wrapper {
+    position: relative;
+    background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 10px;
+}
+.text-area-wrapper .content {
+    border-radius: 10px;
+    flex-grow: 1;
+    margin: 1px;
+}
+.text-area-wrapper textarea{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    min-height: 200px !important;
+}
+.text-area-wrapper textarea:focus {
+    outline: none;
+}

@@ -1,0 +1,50 @@
+.update-offer-modal {
+    padding: 10px;
+    font-family: 'Advent Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.update-offer-modal .header {
+    display: flex;
+    justify-content: start;
+}
+.update-offer-modal .expire {
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+    border-radius: 10px;
+    padding: 0px 10px 0px 10px;
+    margin-left: auto;
+}
+.update-offer-modal .header .icon {
+    margin: 5px;
+}
+.update-offer-modal .x {
+    margin-left: auto;
+}
+.update-offer-modal .x:hover {
+    transform: scale(1.1);
+}
+.update-offer-modal .lable {
+    font-weight: bold;
+    font-size: 18px;
+    background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.update-offer-modal .body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+.update-offer-modal .footer {
+    display: flex;
+    height: 54px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}

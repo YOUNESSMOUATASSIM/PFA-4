@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&display=swap');
+
+.cont {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+    font-family: 'Advent Pro', sans-serif;
+}
+.cont .left-column {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    height: 100%;
+    max-width: 66%;
+    margin-right: 20px;
+    
+}
+.cont .right-column {
+    flex-grow: 1;
+    height: 100%;
+    max-width: 33%;
+    background : white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cont .left-column .cards-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    height: 119px;
+    max-height: 119px;
+}
+.cont .left-column .cards-wrapper .card-item {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    flex-grow: 1;
+    background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.cont .left-column .list {
+    margin-top: 20px;
+    height: auto;
+    flex-grow: 1;
+    overflow: hidden;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.cont .left-column .cards-wrapper .card-item .left {
+    display: flex;
+    flex-grow: 2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 0px 20px 0px 20px;
+}
+.cont .left-column .cards-wrapper .card-item .left .icon {
+    color: rgba(255, 255, 255, 0.85);
+    align-self: left;
+    font-size: 50px;
+}
+.cont .left-column .cards-wrapper .card-item .left .title {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 20px;
+    font-weight: bold;
+}
+.cont .left-column .cards-wrapper .card-item .left .sub-title {
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 15px;
+    font-weight: bold;
+}
+.cont .left-column .cards-wrapper .card-item .right {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.85);
+}
+.cont .left-column .cards-wrapper .card-item .right .value {
+    flex-grow: 1;
+    font-weight: bold;
+    font-size: 65px;
+}
+.cont .left-column .cards-wrapper .card-item .right .date {
+    flex-grow: 1;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.cont .list-title{
+    font-family: 'Advent Pro', sans-serif;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+    font-weight: bold;
+    font-size: 18px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.cont .right-column .small-list-items-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    overflow-y: auto;
+    max-height: calc(100vh - 210px);
+}
+.big-list-items-wrapper {
+    overflow-y: auto;
+    max-height: calc(100vh - 345px);
+}
+.cont .right-column .small-list-item-border {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+    border-radius: 10px;
+}
+.content {
+    margin: 1px;
+    flex-grow: 1;
+    background: white;
+    border-radius: 10px;
+    
+}
+.content .top {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content .title {
+    align-self: start;
+    font-weight: bolder;
+    font-size: 16px;
+    text-align: left;
+}
+.content .top .middle {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .top .middle .user .name {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.content .top .middle .user .city,
+.content .top .middle .user .speciality {
+    font-weight: bold;
+
+}
+.content .top .middle .expire {
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+    padding: 0 5px;
+}
+.content .bottom {
+    display: flex;
+    overflow: hidden;
+    border-radius: 0px 0px 10px 10px;
+    width: 100%;
+    flex-direction: row;
+    gap:1px;
+    font-weight: bold;
+    color: white;
+}
+.content .bottom .price,
+.content .bottom .duration {
+    flex-grow: 1;
+    padding: 5px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+}

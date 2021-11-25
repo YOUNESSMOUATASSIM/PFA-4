@@ -1,0 +1,94 @@
+.add-proposition-modal {
+    padding: 10px;
+    font-family: 'Advent Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.add-proposition-modal .header {
+    display: flex;
+    justify-content: start;
+}
+.add-proposition-modal .expire {
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+    border-radius: 10px;
+    padding: 0px 10px 0px 10px;
+    margin-left: auto;
+}
+.add-proposition-modal .header .icon {
+    margin: 5px;
+}
+.add-proposition-modal .header svg {
+    color: #39A0ED;
+    margin: 5px;
+}
+.add-proposition-modal .x {
+    margin-left: auto;
+}
+.add-proposition-modal .x:hover {
+    transform: scale(1.1);
+}
+.add-proposition-modal .body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.add-proposition-modal .lable {
+    font-weight: bold;
+    font-size: 18px;
+    background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.add-proposition-modal .info {
+    display: flex;
+    justify-content: start;
+}
+.add-proposition-modal .speciality {
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 5px;
+}
+.add-proposition-modal .city {
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 5px;
+}
+.add-proposition-modal .name {
+    font-weight: bold;
+    font-size: 18px;
+    background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.add-proposition-modal .desc {
+    max-height: 50vh;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px 0px;
+}
+.add-proposition-modal .footer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+.add-proposition-modal .footer .inputs {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+.add-proposition-modal .footer .buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}

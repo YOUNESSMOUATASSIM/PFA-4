@@ -1,0 +1,77 @@
+.show-offer-modal {
+    padding: 10px;
+    font-family: 'Advent Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.show-offer-modal .header {
+    display: flex;
+    justify-content: space-between;
+}
+.show-offer-modal .expire {
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+    border-radius: 10px;
+    padding: 0px 10px 0px 10px;
+}
+.show-offer-modal .x:hover {
+    transform: scale(1.1);
+}
+.show-offer-modal .body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.show-offer-modal .lable {
+    font-weight: bold;
+    font-size: 18px;
+}
+.show-offer-modal .speciality {
+    font-weight: bold;
+    font-size: 18px;
+}
+.show-offer-modal .desc {
+    max-height: 50vh;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px 0px;
+}
+.show-offer-modal .footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.show-offer-modal .notif {
+    max-width: max-content;
+    flex-grow: 3;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+    border-radius: 10px;
+    padding: 0px 10px;
+}
+.show-offer-modal .notif > div {
+    display: inline-block;
+    color: #39A0ED;
+    border-radius: 100%;
+    background: white;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+}
+.show-offer-modal .icons {
+    max-width: fit-content;
+    
+}
+.show-offer-modal .trash,
+.show-offer-modal .edit {
+    margin: 0px 5px;
+    cursor: pointer;
+}
+.show-offer-modal .trash:hover,
+.show-offer-modal .edit:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&display=swap');
+
+.SideMenu {
+    position: absolute;
+    z-index: 100;
+    top: 54px;
+    background: white;
+    height: calc(100vh - 54px);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    width: 54px;
+
+}
+.SideMenu ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.SideMenu.Toggled,
+.SideMenu:hover {
+    width: 251px;
+}
+.SideMenu ul li {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 251px;
+    list-style: none;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+.SideMenu ul li.Main .icon {
+    position: absolute;
+    left: 15px;
+    top: 12px;
+}
+.SideMenu ul li.Sub .icon {
+    position: absolute;
+    left: 25px;
+    top: 12px;
+}
+.SideMenu ul li .toggle {
+    position: absolute;
+    right: 15px;
+    top: 22px;
+}
+.SideMenu ul li.Main {
+    height: 54px;
+    line-height: 54px;
+
+    background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.SideMenu ul li.Sub {
+    font-size: 13px;
+    color: #39A0ED;
+    height: 35px;
+    line-height: 35px;
+    background: #F5F5F5;
+}
+.SideMenu ul li.Sub:hover {
+    background: #39A0ED;
+    color: #F5F5F5;
+}

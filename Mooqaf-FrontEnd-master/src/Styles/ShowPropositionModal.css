@@ -1,0 +1,104 @@
+.show-proposition-modal {
+    padding: 10px;
+    font-family: 'Advent Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.show-proposition-modal .header {
+    display: flex;
+    justify-content: start;
+}
+.show-proposition-modal .expire {
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+    border-radius: 10px;
+    padding: 0px 10px 0px 10px;
+    margin-left: auto;
+}
+.show-proposition-modal .header .icon {
+    margin: 5px;
+}
+.show-proposition-modal .x {
+    margin-left: auto;
+}
+.show-proposition-modal .x:hover {
+    transform: scale(1.1);
+}
+.show-proposition-modal .body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.show-proposition-modal .lable {
+    font-weight: bold;
+    font-size: 18px;
+    background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.show-proposition-modal .info {
+    display: flex;
+    justify-content: start;
+}
+.show-proposition-modal .speciality {
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 5px;
+}
+.show-proposition-modal .city {
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 5px;
+}
+.show-proposition-modal .name {
+    font-weight: bold;
+    font-size: 18px;
+    background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.show-proposition-modal .desc {
+    max-height: 50vh;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px 0px;
+}
+.show-proposition-modal .footer {
+    display: flex;
+    height: 54px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.show-proposition-modal .notif {
+    max-width: max-content;
+    flex-grow: 3;
+}
+.show-proposition-modal .notif > span {
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 10px 10px;
+    text-align: center;
+}
+.show-proposition-modal .icons {
+    max-width: fit-content;
+    
+}
+.show-proposition-modal .trash,
+.show-proposition-modal .edit {
+    margin: 0px 5px;
+    cursor: pointer;
+}
+.show-proposition-modal .trash:hover,
+.show-proposition-modal .edit:hover {
+    transform: scale(1.1);
+}

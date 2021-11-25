@@ -1,0 +1,102 @@
+.single-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 20px;
+    width: 100%;
+    flex-grow: 1;
+    font-family: 'Advent Pro', sans-serif;
+    background: white;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.single-container>.title {
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.single-container>.title svg{
+    color: #39A0ED;
+}
+.list {
+    height: calc(100vh - 210px);
+    overflow-y: auto;
+}
+.list .list-item3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+
+}
+.list .list-item3 .left {
+    /* width: 100px; */
+    padding: 10px;
+    flex-grow: 7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.list .list-item3 .right {
+    margin: 5px 10px 5px 10px;
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.list .list-item3 .right .price,
+.list .list-item3 .right .duration {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+    border-radius: 10px;
+    width: 100%;
+}
+.list .list-item3 .left .title {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+    font-weight: bold;
+}
+.list .list-item3 .left .title .lable {
+
+}
+.list .list-item3 .left .title .notif {
+    text-align: center;
+    line-height: 23px;
+    color: white;
+    width: 23px;
+    height: 23px;
+    background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+    border-radius: 100%;
+}
+.list .list-item3 .left .speciality {
+    font-weight: bold;
+}
+.list .list-item3 .left .desc {
+    width: calc(100vw - 500px);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+.list .list-item3 .left .expire {
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+    padding: 0 5px;
+}

@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&display=swap');
+
+body{
+  margin: 0;
+  background: #F5F5F5;
+}
+a {
+  text-decoration: unset;
+}
+.button {
+  font-family: 'Advent Pro', sans-serif;
+  width: max-content;
+  height: 43px;
+  padding: 0px 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+  border: none;
+  border-radius: 10px;
+}
+.button:hover {
+
+  border: solid 1px #36F1CD;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+hr {
+  background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+  height: 1px !important;
+  border: none !important;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+  width: 100% !important;
+
+}
+.TopMenu {
+  position: fixed;
+  display: flex;
+  background: white;
+  height: 54px;
+  width: 100%;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1001;
+}
+.TopMenu .ToggleMenu {
+  line-height: 54px;
+  width: 54px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.TopMenu .ToggleMenu.Toggled{
+  background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+}
+.TopMenu .ToggleMenu img {
+  cursor: pointer;
+}
+.TopMenu .Logo{
+  position: absolute;
+  left: 92px;
+  top: 14px;
+}
+.TopMenu ul {
+  list-style-type: none;
+  text-align: center;
+  line-height: 54px;
+  position: absolute;
+  margin: 0;
+  left: 251px;
+  padding: 0;
+  color: white;
+  font-family: 'Advent Pro', sans-serif;
+
+}
+.TopMenu li {
+  display: inline-block;
+  cursor: pointer;
+  width: 191px;
+  height: 54px;
+  background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+  font-weight: bold;
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+
+}
+.TopMenu li:hover {
+  background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+  -webkit-background-clip: unset;
+  -webkit-text-fill-color: unset; 
+  -moz-background-clip: unset;
+  -moz-text-fill-color: unset;
+}
+.TopMenu .UserLogIn {
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 54px;
+}
+.TopMenu .UserLogIn span {
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 14px;
+  background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+  font-weight: bold;
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.TopMenu .UserLogIn img {
+  padding: 20px;
+  cursor: pointer;
+}
+.Master {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 54px;
+  width: 100vw;
+  max-width: 100vw;
+  height: calc(100vh - 54px);
+  background: #F5F5F5;
+}
+.Master.Toggled {
+  left: 251px;
+  width: calc(100vw - 251px);
+  max-width: calc(100vw - 251px);
+  padding: 20px;
+}
+.Master.NotToggled {
+  left: 54px;
+  width: calc(100vw - 54px);
+  max-width: calc(100vw - 54px);
+  padding: 20px;
+}
+ol.breadcrumb{
+  background: white;
+  width: 100%;
+  margin: 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+ol.breadcrumb a{
+  background-image: linear-gradient(to bottom right, #36F1CD , #39A0ED);
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: bold;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+ol.breadcrumb a:hover {
+  cursor: default;
+  text-decoration: none;
+
+}
+nav[aria-label="breadcrumb"]{
+  width: 100%;
+}
